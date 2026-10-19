@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Nunito:wght@400;600;800&display=swap");
+
+:root {
+  --bg: #fff3f6;
+  --bg2: #ffe0ea;
+  --ink: #3b2430;
+  --soft: #7d5d6b;
+  --card: #ffffff;
+  --accent: #ff6f9c;
+  --accent-ink: #ffffff;
+  --pop: #ffd166;
+  --line: rgba(59, 36, 48, 0.12);
+  --shadow: 0 6px 0 rgba(59, 36, 48, 0.12);
+}
+[data-season="Spring"] {
+  --bg: #f2fff0;
+  --bg2: #d9f7d6;
+  --ink: #24402b;
+  --soft: #527a5b;
+  --accent: #ff7aa8;
+  --pop: #ffe066;
+  --line: rgba(36, 64, 43, 0.14);
+  --shadow: 0 6px 0 rgba(36, 64, 43, 0.13);
+}
+[data-season="Summer"] {
+  --bg: #fff9dc;
+  --bg2: #ffe9a0;
+  --ink: #3d3200;
+  --soft: #7a6a1c;
+  --accent: #ff8a1f;
+  --pop: #37c9ef;
+  --line: rgba(61, 50, 0, 0.15);
+  --shadow: 0 6px 0 rgba(61, 50, 0, 0.14);
+}
+[data-season="Autumn"] {
+  --bg: #fff1e0;
+  --bg2: #ffd6a8;
+  --ink: #4a2410;
+  --soft: #8a5a3c;
+  --accent: #d9531e;
+  --pop: #f2b632;
+  --line: rgba(74, 36, 16, 0.15);
+  --shadow: 0 6px 0 rgba(74, 36, 16, 0.15);
+}
+[data-season="Winter"] {
+  --bg: #eaf6ff;
+  --bg2: #cfe8fb;
+  --ink: #14304d;
+  --soft: #4a6f92;
+  --accent: #3d8bff;
+  --pop: #9be7ff;
+  --line: rgba(20, 48, 77, 0.15);
+  --shadow: 0 6px 0 rgba(20, 48, 77, 0.14);
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+::selection {
+  background: var(--pop);
+  color: var(--ink);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
